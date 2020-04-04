@@ -12,6 +12,7 @@ This repository implement cluster sampling for .csv (Comma-separated values) fil
 put your data (.csv) in data/ folder  
 **Output**  
 the result of sampling will replace taget in output/result.csv file  
+  
 **Step**  
 1. Put your dataset .csv in folder /data/
 1. Open file cluster_sampling.py 
@@ -20,5 +21,5 @@ the result of sampling will replace taget in output/result.csv file
   * variable **idx_label** <- index column label or class
   * variable **is_header** <- True if dataset has header, False without header
   * variable **n_sample** <- n sample each cluster or class, n_sample cannot be larger than population or is negative
-1. Run Program (comment in **Issues** tab if you had an error)
-1. Result cluster sampling automaticly exported on /output/result.csv
+4. Run Program (comment in **Issues** tab if you had an error)
+5. Result cluster sampling automaticly exported on /output/result.csv
