@@ -16,9 +16,9 @@ the result of sampling will replace taget in output/result.csv file
 1. Put your dataset .csv in folder /data/
 1. Open file cluster_sampling.py 
 1. Edit #INPUT# section based on your dataset
-  1. variable **data_path** <- load path's csv dataset
-  1. variable **idx_label** <- index column label or class
-  1. variable **is_header** <- True if dataset has header, False without header
-  1. variable **n_sample** <- n sample each cluster or class, n_sample cannot be larger than population or is negative
+  * variable **data_path** <- load path's csv dataset
+  * variable **idx_label** <- index column label or class
+  * variable **is_header** <- True if dataset has header, False without header
+  * variable **n_sample** <- n sample each cluster or class, n_sample cannot be larger than population or is negative
 1. Run Program (comment in **Issues** tab if you had an error)
 1. Result cluster sampling automaticly exported on /output/result.csv
